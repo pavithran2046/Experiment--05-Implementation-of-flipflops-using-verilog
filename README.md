@@ -186,7 +186,7 @@ endmodule
 
 ## JK FLIPFLOPS:
 
-![image](https://raw.githubusercontent.com/pavithran2046/Experiment--05-Implementation-of-flipflops-using-verilog/main/JK.png
+![image](https://raw.githubusercontent.com/pavithran2046/Experiment--05-Implementation-of-flipflops-using-verilog/main/JK.png)
 
 ## T FLIPFLOPS:
 
