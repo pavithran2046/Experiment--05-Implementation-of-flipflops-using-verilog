@@ -122,13 +122,7 @@ Program for flipflops  and verify its truth table in quartus using Verilog progr
 Developed by: Pavithran S
 
 RegisterNumber:  23001643
-*/
 ```
-/*
-Program for flipflops  and verify its truth table in quartus using Verilog programming.
-Developed by: Girithick Rohan
-RegisterNumber:  23003797
-*/
 ## SR FILPFLOP:
 
 module srf(s,r,clk, q,qbar);
@@ -184,37 +178,37 @@ endmodule
 
 ## SR FLIPFLOPS:
 
-![image](
+![image](https://raw.githubusercontent.com/pavithran2046/Experiment--05-Implementation-of-flipflops-using-verilog/main/SR.png)
 
 ## D FLIPFLOPS:
 
-![image](
+![image](https://raw.githubusercontent.com/pavithran2046/Experiment--05-Implementation-of-flipflops-using-verilog/main/D.png)
 
-## SR FLIPFLOPS:
+## JK FLIPFLOPS:
 
-![image](
+![image](https://raw.githubusercontent.com/pavithran2046/Experiment--05-Implementation-of-flipflops-using-verilog/main/JK.png
 
 ## T FLIPFLOPS:
 
-![image](
+![image](https://raw.githubusercontent.com/pavithran2046/Experiment--05-Implementation-of-flipflops-using-verilog/main/T.png)
 
 ### TIMING DIGRAMS FOR FLIP FLOPS 
 
 ## SR FLIPFLOPS:
 
-![image](
+![image](https://raw.githubusercontent.com/pavithran2046/Experiment--05-Implementation-of-flipflops-using-verilog/main/sr%20(2).png)
 
 ## D FLIPFLOPS:
 
-![image](
+![image](https://raw.githubusercontent.com/pavithran2046/Experiment--05-Implementation-of-flipflops-using-verilog/main/d%20(2).png)
 
-## SR FLIPFLOPS:
+## JK FLIPFLOPS:
 
-![image](
+![image](https://raw.githubusercontent.com/pavithran2046/Experiment--05-Implementation-of-flipflops-using-verilog/main/jk%20(2).png)
 
 ## T FLIPFLOPS:
 
-![image](
+![image](https://raw.githubusercontent.com/pavithran2046/Experiment--05-Implementation-of-flipflops-using-verilog/main/t%20(2).png)
 
 ### RESULTS 
 Thus,Implementation-of-flipflops-using successfully completed.
