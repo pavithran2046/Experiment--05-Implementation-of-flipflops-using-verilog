@@ -102,39 +102,119 @@ Q(t+1)=T′Q(t)+TQ(t)′
 ⇒Q(t+1)=T⊕Q(t)
 
 ### Procedure
-/* write all the steps invloved */
 
+STEP 1: Open Quartus II and select new project and choose the file location.
 
+STEP 2: Module Declaration. Module should have the file name.
+
+STEPS 3: Input-Output Delecaration.
+
+STEPS 4: Use assign declaration and wire to define the functionality of logic circuits.
+
+STEP 5: At the end give endmodule.
+
+STEP 6: Run the program and choose RTL viewer to get RTL realization.
 
 ### PROGRAM 
 /*
 Program for flipflops  and verify its truth table in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
+
+Developed by: Pavithran S
+
+RegisterNumber:  23001643
 */
+```
+/*
+Program for flipflops  and verify its truth table in quartus using Verilog programming.
+Developed by: Girithick Rohan
+RegisterNumber:  23003797
+*/
+## SR FILPFLOP:
 
+module srf(s,r,clk, q,qbar);
+input s,r,clk;
+output reg q;
+output qbar;
+always@(posedge clk)
+begin
+q= s[((~r)&q);
+end
+assign qbar=~q;
+endmodule
+## D FLIPFLOPS:
 
+module Df(d, clk, q,qbar);
+input d, clk;
+output reg q;
+output qbar;
+always@(posedge clk)
+begin
+q=d;
+end
+assign qbar=~q;
+endmodule
 
+## JK FILPFLOP:
 
+module jk(j,k, clk, q, qbar);
+input j,k,clk;
+output q, qbar;
+reg q,qbar;
+always @(posedge clk)
+begin q<=(j&~q)|(~k&q);
+qbar<=~q;
+end
+endmodule
 
+## T FILPFLOP:
 
+module t(t, clk,q,qbar);
+input t,clk;
+output reg q;
+output qbar;
+always@(posedge clk)
+begin
+q=((~q)&t) (q&(~t));
+end
+assign qbar=~q;
+endmodule
+
+```
 ### RTL LOGIC FOR FLIPFLOPS 
 
+## SR FLIPFLOPS:
 
+![image](
 
+## D FLIPFLOPS:
 
+![image](
 
+## SR FLIPFLOPS:
 
+![image](
 
+## T FLIPFLOPS:
 
+![image](
 
 ### TIMING DIGRAMS FOR FLIP FLOPS 
 
+## SR FLIPFLOPS:
 
+![image](
 
+## D FLIPFLOPS:
 
+![image](
 
+## SR FLIPFLOPS:
 
+![image](
 
+## T FLIPFLOPS:
+
+![image](
 
 ### RESULTS 
+Thus,Implementation-of-flipflops-using successfully completed.
